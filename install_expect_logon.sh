@@ -1,8 +1,8 @@
 #!/bin/sh
 yum list installed | grep expect || yum install -y expect
-wget http://axe3.tk/tools/linux/axe_v2.sh
-wget http://axe3.tk/tools/linux/22.sh
-wget http://axe3.tk/tools/linux/15.sh
+wget http://axe3.tk/tools/linux/expect_logon/axe_v2.sh
+wget http://axe3.tk/tools/linux/expect_logon/222.sh
+wget http://axe3.tk/tools/linux/expect_logon/15.sh
 mv axe_v2.sh /usr/bin/axe_v2
 mv 222.sh /usr/bin/222
 mv 15.sh /usr/bin/15
