@@ -1,12 +1,8 @@
 #!/bin/sh
-rm -rf expect_logon
 yum list installed | grep expect || yum install -y expect
-yum list installed | grep git || yum install -y git
-git clone https://github.com/axeprpr/expect_logon.git
-cd expect_logon
-chmod +x *
-cp axe_v2.sh /usr/bin/axe_v2
-cp 222.sh /usr/bin/222
-cp 15.sh /usr/bin/15
-cd ..
-rm -rf expect_logon
+wget http://axe3.tk/tools/linux/axe_v2.sh
+wget http://axe3.tk/tools/linux/22.sh
+wget http://axe3.tk/tools/linux/15.sh
+mv axe_v2.sh /usr/bin/axe_v2
+mv 222.sh /usr/bin/222
+mv 15.sh /usr/bin/15
