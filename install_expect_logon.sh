@@ -8,4 +8,4 @@ mv axe_v2.sh /usr/bin/axe_v2
 mv 222.sh /usr/bin/222
 mv 15.sh /usr/bin/15
 mv 17.sh /usr/bin/17
-chmod +x /usr/bin/axe_v2 /usr/bin/222 /usr/bin/15 /usr/bin/15
+chmod +x /usr/bin/axe_v2 /usr/bin/222 /usr/bin/15 /usr/bin/17
